@@ -80,11 +80,11 @@ def show_pattern(pattern):
     for i in range(0, 3):
         val = [None, None, None]
         for j in range(0, 3):
-            val[j] = " " if gesture[i * 3 + j] is None else '\033[94m' + str(gesture[i * 3 + j]) + '\033[0m'
+            val[j] = "   " if gesture[i * 3 + j] is None else '\033' + str(gesture[i * 3 + j]) + '\033'
 
-        print '  -----  -----  -----'
-        print '  | %s |  | %s |  | %s |  ' % (val[0], val[1], val[2])
-        print '  -----  -----  -----'
+        print '  ------  ------  ------'
+        print '  | %s | | %s | | %s |  ' % (val[0], val[1], val[2])
+        print '  ------  ------  ------'
 
 
 if __name__ == "__main__":
