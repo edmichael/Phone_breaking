@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 """
 Modified version of BruteForceAndroidPin.py by Alex Caithness @ CCL Forensics.
